@@ -1,74 +1,34 @@
-# React + TypeScript + Vite
+### "# Projet-_-Portfolio-React-Pro-Vite-TS-" 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+####  Portfolio Personnel - BEN-LAGHFIRI Majeda
+Ce portfolio présente mon parcours académique et professionnel en tant qu'étudiante en Master en Technologies émergentes. Il met en valeur mes compétences en développement web, intelligence artificielle, et technologies modernes.
 
-Currently, two official plugins are available:
+Ce portfolio est développé avec React 18, Vite, TypeScript, Tailwind CSS, shadcn/ui, et React Router.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+#### Objectifs d’apprentissage
+* Initialiser un projet React propre et typé avec Vite + TypeScript.
+* Mettre en place Tailwind + shadcn/ui pour une UI cohérente et moderne.
+* Créer les pages: Home, Projects, Experience, Education, Certifications (avec badges photo), Contact.
+* Centraliser le contenu dans src/data/* (profil, projets, formations, certifs).
+* Ajouter SEO de base (Helmet), accessibilité, lint/format.
+* Construire et déployer sur Vercel (CI sur push GitHub).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#### Page Accueil
+<img width="1395" height="833" alt="image" src="https://github.com/user-attachments/assets/6724dfcd-a035-40c2-9c13-64f139683d45" />
 
-## Expanding the ESLint configuration
+#### Page Projets
+<img width="1311" height="897" alt="image" src="https://github.com/user-attachments/assets/69c56151-c9f8-4178-b47f-62d12a221d99" />
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+#### Page Parcours
+<img width="1329" height="888" alt="image" src="https://github.com/user-attachments/assets/2cfb938f-de7d-4215-acf7-e4e9b93eb7ca" />
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+#### Page Parcours
+<img width="1317" height="850" alt="image" src="https://github.com/user-attachments/assets/1262c71e-870b-4891-821a-24a29972853f" />
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+#### Page Certifications
+<img width="1265" height="826" alt="image" src="https://github.com/user-attachments/assets/140e70b8-ac5d-4f24-bbf8-e669574b3963" />
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+#### Page Contact
+<img width="1308" height="892" alt="image" src="https://github.com/user-attachments/assets/5a67b46e-0ab9-4ec7-a007-1c941176fe98" />
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-"# Projet-_-Portfolio-React-Pro-Vite-TS-" 
