@@ -1,7 +1,10 @@
 ### "# Projet-_-Portfolio-React-Pro-Vite-TS-" 
 
-#### 📌 mon-portfolio
-Un portfolio moderne développé avec React 18, Vite, TypeScript, Tailwind CSS, shadcn/ui, et React Router.
+####  Portfolio Personnel - BEN-LAGHFIRI Majeda
+Ce portfolio présente mon parcours académique et professionnel en tant qu'étudiante en Master en Technologies émergentes. Il met en valeur mes compétences en développement web, intelligence artificielle, et technologies modernes.
+
+Ce portfolio est développé avec React 18, Vite, TypeScript, Tailwind CSS, shadcn/ui, et React Router.
+
 
 #### Objectifs d’apprentissage
 * Initialiser un projet React propre et typé avec Vite + TypeScript.
