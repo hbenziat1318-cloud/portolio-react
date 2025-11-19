@@ -9,7 +9,7 @@ export default function RootLayout() {
             to="/" 
             className="text-xl font-bold bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent hover:from-primary hover:to-primary/70 transition-all duration-300"
           >
-            BEN-LAGHFIRI Majeda
+            BENZIAT HANA
           </NavLink>
           <div className="flex items-center gap-2 md:gap-4 text-sm md:text-base">
             <NavLink 
@@ -55,7 +55,7 @@ export default function RootLayout() {
       </main>
       <footer className="border-t border-border/50 mt-16 py-8 text-center text-sm text-muted-foreground bg-card/30">
         <div className="max-w-7xl mx-auto px-4">
-          © {new Date().getFullYear()} • BEN-LAGHFIRI Majeda
+          © {new Date().getFullYear()} • BENZIAT HANA
         </div>
       </footer>
     </div>

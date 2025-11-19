@@ -7,7 +7,7 @@ export default function Home() {
     <section className="grid gap-8 md:grid-cols-2 items-center max-w-7xl mx-auto px-4 md:px-8 py-16 md:py-24 w-full">
 
       <Helmet>
-        <title>{profile.name} BEN-LAGHFIRI Majeda</title>
+        <title>{profile.name} BENZIAT HANA</title>
         <meta name="description" content="Portfolio : IA, SIG, DevSecOps, Android." />
       </Helmet>
 

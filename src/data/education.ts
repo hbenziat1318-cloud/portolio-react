@@ -14,21 +14,30 @@ export const education: Education[] = [
     
     
   },
+ {
+    school: "Centre Régional des Métiers de l’Education et de la Formation – CRMEF",
+    degree: "Licence d'Education",
+    field: "Mathematique",
+    location: "Marrakech",
+    start: "2024-04",
+    end: "2024-11",
+
+  },
     {
     school: "Université Cadi Ayyad",
     degree: "Licence d'Education",
     field: "Informatique",
     location: "Marrakech",
     start: "2021-10",
-    end: "2024-07",
+    end: "2023-07",
     
   },
   {
-    school: "Lycée qualifiant RAHALI ELFAROUQ",
+    school: "Lycée qualifiant AL DOHA",
     degree: "Baccalauréat",
     field: "Science physique",
-    location: " EL ATTAOUIA EL KELAA DES SRAGHNA ",
-    start: "2019-09",
+    location: " Marrakech ",
+    start: "20202-09",
     end: "2020-07",
     
     

@@ -33,14 +33,5 @@ export const certifications: Certification[] = [
     imageAlt: "Certificat Hibernate",
     status: "active"
   },
-  {
-    title: "Développement Front-End moderne avec React",
-    issuer: "MLIAEdu toubkalit",
-    issueDate: "2025-11",
-    skills: ["State & Hooks , Composants React , Routing, API & Intégration"],
-    tags: ["Kubernetes","DevOps"],
-    image: "/assets/React.png",
-    imageAlt: "Certificat Hibernate",
-    status: "active"
-  }
+
 ];

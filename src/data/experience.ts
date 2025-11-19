@@ -10,25 +10,28 @@ export type Experience = {
 };
 
 export const experience: Experience[] = [
-  {
-    title: " Stage de fin d’étude | Service financier",
-    company: "Ecole Normale Supérieure | Marrakech  ",
-    location: "Marrakech",
-    start: "2024-02",
-    end: "2024-06",
-    description: [
-      "Conception et développement d'une application web dédiée à la gestion des vacataires et des budgets.",
-      "Création et optimisation d'une base de données permettant une gestion efficace des ressources et l'analyse statistique des activités.",
-      "Automatisation du calcul des indemnités et gestion des documents de paiement en conformité avec la réglementation en vigueur.",
-      "Implémentation d'un calendrier interactif pour le suivi des séances et des jours fériés"
-    ]
-  },
+    {
+        title: "Enseignement Mathematique",
+        company: "Collége Zhor Targa  ",
+        location: "Marrakech",
+        start: "2024-10",
+        end: "2024-11",
+        description: [
+          "Enseignement des mathématiques selon le programme scolaire marocain",
+              "Animation de cours couvrant l'algèbre, la géométrie et l'arithmétique",
+              "Développement de supports pédagogiques innovants pour faciliter l'apprentissage",
+              "Application de méthodes actives pour rendre les mathématiques accessibles",
+              "Évaluation continue et préparation aux contrôles nationaux",
+              "Utilisation de la plateforme MASSAR pour le suivi administratif et pédagogique"
+
+        ]
+      },
   {
     title: "Action educative",
-    company: "Lycée Abdelah Ibrahim ",
+    company: "Lycée Al khawarizmi ",
     location: "Marrakech",
     start: "2023-11",
-    end: "2024-07",
+    end: "2023-07",
     description: [
       "Enregistrement des absences et suivi administratif via le service MASSAR",
       "Gestion des notes et mise à jour des informations académiques sur MASSAR",
@@ -36,16 +39,20 @@ export const experience: Experience[] = [
       "Accompagnement et soutien des élèves en mathématiques pour améliorer leur compréhension et leurs résultats"
     ]
    },
+
   {
-    title: "Action Educative",
-    company: "Lycée Salah Eddine El Ayoubi  ",
+    title: " Stage ",
+    company: "Marjan | Marrakech  ",
     location: "Marrakech",
-    start: "2023-11",
-    end: "2024-07",
+    start: "2022-06",
+    end: "2022-08",
     description: [
-      "Enregistrement des absences et suivi administratif via le service MASSAR",
-      "Gestion des notes et mise à jour des informations académiques sur MASSAR"
-      
+      "Maintenance préventive et corrective des équipements informatiques et des systèmes réseaux.",
+          "Diagnostic et résolution des pannes matérielles et logicielles sur les postes de travail.",
+          "Installation et configuration de nouveaux équipements informatiques et périphériques.",
+          "Assistance technique aux utilisateurs et formation sur les bonnes pratiques d'utilisation.",
+          "Gestion des inventaires et suivi des interventions dans la base de données technique."
     ]
   }
+
 ];

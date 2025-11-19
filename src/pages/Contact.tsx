@@ -7,7 +7,7 @@ export default function Contact() {
 
       <Helmet>
         <title>Contact – {profile.name}</title>
-        <meta name="description" content="Contact BEN-LAGHFIRI Majeda" />
+        <meta name="description" content="Contact BENZIAT HANA" />
       </Helmet>
 
       <h1 className="text-4xl md:text-5xl font-bold text-center bg-gradient-to-r from-foreground to-foreground/70 bg-clip-text text-transparent">
