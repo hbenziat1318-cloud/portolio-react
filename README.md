@@ -55,7 +55,3 @@ https://github.com/user-attachments/assets/591e4023-bcef-4880-b8dd-dd11d98ada75
 **Réalisée par**:Mr.LACHGAR mohammed
 <br>
 **Encadré par**:BENZIAT hana
-
-- ✅ Sections pour les contributions et licence
-
-Vous pouvez le personnaliser selon vos besoins spécifiques !
