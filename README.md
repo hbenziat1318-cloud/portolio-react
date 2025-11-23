@@ -52,7 +52,7 @@ https://github.com/user-attachments/assets/591e4023-bcef-4880-b8dd-dd11d98ada75
 
 
 
-## 👨‍💻 Auteur
+##  Auteur
 
 **Réalisée par**:Mr.LACHGAR mohammed
 <br>
